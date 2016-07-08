@@ -3,7 +3,7 @@ import React from 'react';
 import {
   StyleSheet,
   View,
-  Component,
+  Component
 } from 'react-native';
 
 export class Foo extends Component {

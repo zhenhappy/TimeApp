@@ -1,7 +1,7 @@
 import {
   StyleSheet,
   View,
-  Component,
+  Component
 } from "react-native";
 
 export class App extends Component {
