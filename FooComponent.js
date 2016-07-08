@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import {
   StyleSheet,
-  View,
-  Component
+  View
 } from 'react-native';
 
 export class Foo extends Component {

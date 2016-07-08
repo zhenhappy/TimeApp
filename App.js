@@ -1,18 +1,19 @@
+import React, { Component } from 'react';
 import {
   StyleSheet,
-  View,
-  Component
-} from "react-native";
+  Text,
+  View
+} from 'react-native';
 
-export class App extends Component {
+export class TimerApp extends Component {
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.timerDisplayLayout}>
-          <TimerDisplay/>
+          <Text>1</Text>
         </View>
         <View style={styles.controlsLayout}>
-          <TimerControls/>
+          <Text>2</Text>
         </View>
       </View>
     );
@@ -25,9 +26,11 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch'
   },
   timerDisplayLayout: {
+    flex: 1,
     backgroundColor: 'rgba(255,0,0,0.3)'
   },
   controlsLayout: {
+    flex: 1,
     backgroundColor: 'rgba(0,255,0,0.3)'
   }
 });
