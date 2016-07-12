@@ -4,16 +4,18 @@ import {
   Text,
   View
 } from 'react-native';
+import { TimerDisplay } from './TimerDisplay.js';
+import { TimerControls } from './TimerControls.js';
 
 export class TimerApp extends Component {
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.timerDisplayLayout}>
-          <Text>1</Text>
+          <TimerDisplay/>
         </View>
         <View style={styles.controlsLayout}>
-          <Text>2</Text>
+          <TimerControls/>
         </View>
       </View>
     );
@@ -26,7 +28,7 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch'
   },
   timerDisplayLayout: {
-    flex: 1,
+    flex: 3,
     backgroundColor: 'rgba(255,0,0,0.3)'
   },
   controlsLayout: {
