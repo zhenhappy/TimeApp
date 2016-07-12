@@ -4,8 +4,8 @@ import {
   Text,
   View
 } from 'react-native';
-import { TimerDisplay } from './TimerDisplay.js';
-import { TimerControls } from './TimerControls.js';
+import { TimerDisplay } from './components/TimerDisplay.js';
+import { TimerControls } from './components/TimerControls.js';
 
 export class TimerApp extends Component {
   render() {

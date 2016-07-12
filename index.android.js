@@ -5,6 +5,6 @@
  */
 
 import { AppRegistry } from 'react-native';
-import { TimerApp } from './App.js';
+import { TimerApp } from './workspace/app.js';
 
 AppRegistry.registerComponent('TimerApp', () => TimerApp);

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  Text,
+  Image,
   View
 } from 'react-native';
 
@@ -9,7 +9,7 @@ export class TimerControls extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>TimerControls</Text>
+        <Image source={require('../imgs/start-icon.png')} />
       </View>
     );
   }
