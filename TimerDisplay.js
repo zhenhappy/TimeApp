@@ -44,17 +44,18 @@ const styles = StyleSheet.create({
   displayContainer: {
     width: 200,
     height: 200,
+    marginLeft: -3,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center'
   },
   mainLabel: {
-    fontSize: 30,
+    fontSize: 50,
     color: 'white'
   },
   subLabel: {
-    fontSize: 15,
+    fontSize: 20,
     color: 'white',
-    marginBottom: -10
+    marginBottom: -20
   }
 });
